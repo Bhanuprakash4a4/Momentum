@@ -1,0 +1,19 @@
+{
+  "manifest_version" : 2,
+  "name": "Momentum Clone By Newtons",
+  "author":"Newtons - Tirth Shah",
+  "version" : "1.0.1",
+  "description" : "Be more productive with Momentum",
+  "icons": {
+    "16" : "favicon.ico",
+    "48" : "favicon.ico",
+    "128" : "favicon.ico"
+  },
+  "browser_action":{
+    "default_icon" : "logo192.png",
+    "default_title" : "Momentum"
+  },
+  "chrome_url_overrides":{
+    "newtab" : "index.html"
+  }
+}
